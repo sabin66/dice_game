@@ -72,7 +72,6 @@ class Game:
     def score_sum(self):
         return sum(self.values)
 
-    
     def count_points(self):
         rules = {
             "Poker": self.score_poker,
